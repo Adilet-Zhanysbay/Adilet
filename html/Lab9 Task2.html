@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Registration Page</title>
+	<style type="text/css">
+		.error_message
+		{
+			color:;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../style/style2.css">
+	<link rel="shortcut icon" href="../img/favicon2.ico" type="image/x-icon">
+	<script type="text/javascript" src="../js/script.js"> </script>
+</head>
+<body>
+	<div id="navig">
+	 <a href="LAB 9 Task 1.html" >TASK 1</a>
+    <a href="Lab9 Task2.html" >TASK 2</a>
+    </div>
+    <center><img src="../img/photoshopicon2.png"></center>
+	<div id="boxx">
+	<h1 align="center">Registration Page</h1>
+	<form id="RegistrationPage" method="post">
+		<table>
+			<tbody>
+				<tr>
+					<td></td>
+					<td><label id="email_message" class="error_message"></label></td>
+				</tr>
+				<tr>
+					<td>Email address: </td>
+					<td><input type="text" name="email" size="10" placeholder="Enter email..."></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><label id="username_message" class="error_message"></label></td>
+				</tr>
+				<tr>
+					<td>Fullname: </td>
+					<td><input type="text" name="username" size="10" placeholder="Enter name..."></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><label id="password_message" class="error_message"></label></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="password" size="10" placeholder="Enter password..."></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><label id="repassword_message" class="error_message"></label></td>
+				</tr>
+				<tr>
+					<td>Re-password: </td>
+					<td><input type="password" name="repassword" size="10" placeholder="Re-enter password..."></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><label id="checkequal" class="error_message"></label></td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<input type="button" value="Ok" onclick="RegistrationPage()" align="center"><br>
+		<input type="reset" value="Reset" onclick="ResetForm()" align="center">
+	</form>
+</div>
+</div>
+<div id="display" align="center" class="boxxx">
+	<span>Result:</span>
+</div>
+<div id="extradiv">
+	<p>University: IITU</p>
+	<p>Group: ITIS-1913</p>
+	<p>ID: 27418</p>
+	<p>&copy Zhanysbay Adilet</p>
+</div>
+</body>
+</html>

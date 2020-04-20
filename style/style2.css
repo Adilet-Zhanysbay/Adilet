@@ -1,0 +1,126 @@
+body{
+	background-color: #1c8df8;
+}
+*
+{
+  margin: 0 auto 0 auto;
+}
+#boxx{
+	background-color: white;
+	border:0;
+	border-radius: 10px;
+	text-align: left;
+	width: 400px;
+	padding: 15px;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0,.5);
+}
+.boxxx{
+	background-color: white;
+	border:0;
+	border-radius: 10px;
+	text-align: left;
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 210px;
+	padding: 15px;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0,.5);
+	font-family: arial;
+	color:#202020;
+}
+img{
+	width: 150px;
+	margin-bottom: -60px;
+}
+input[type=text],input[type=password]{
+	width: 200px;
+	height: 25px;
+	border-radius: 5px;
+	border:0.5px solid #ced4da;
+	padding-left: 5px; 
+}
+input[type=button],input[type=reset]{
+	border-radius: 5px;
+	width: 320px;
+	border:0;
+	color: white;
+	height: 30px;
+	margin-bottom:5px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 0;  
+	background-color: #1c8df8;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0,.5);
+}
+input[type=button]:hover,input[type=reset]:hover{
+	background-color: #1c6ab4;
+	}
+input[type=text]:hover,input[type=password]:hover{
+	background-color: #e2e2e2;
+}
+label{
+	font-size:12px;
+	font-family: arial; 
+	color: #f55959;
+
+}
+td{
+	font-family: arial;
+	color: #202020;
+}
+h1{
+	font-family: arial;
+	margin-bottom: 25px;
+	font-size: 25px;
+	color: #2d2d2d;
+	margin-top: 50px;
+}
+p{
+	text-align:center;
+	font-family: arial;
+	color: #ced4da;
+	font-size: 15px;
+}
+span{
+	text-align:left;
+	font-family: arial;
+	margin-left:5px;
+	margin-top: 5px;
+	color: #ced8da;
+	font-size: 15px;
+}
+#navig {
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	z-index: 99;
+	background-color: white;
+	border-radius: 5px;
+	width: 130px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0,.5);
+}
+a:link , a:visited{
+	border-radius: 5px;
+	border:3px #759cd8;
+	background-color: #1c8df8;
+	padding: 5px;
+	text-align:center;
+	text-decoration:none;
+	color: white;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0,.5);
+}
+a:hover, a:active {
+  background-color: #1c6ab4;
+}
+#extradiv{
+	background-color:#52a1ec;
+	padding-top: 20px;
+	position: fixed;
+	bottom: 0;
+	height: 110px;
+	width: 100%;
+	z-index: 99;	
+	text-align: center;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0,.5);
+}

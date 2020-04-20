@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Wish-list</title>
+	<link rel="stylesheet" type="text/css" href="../style/style1.css">
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<style>
+		li{
+			margin-bottom: 10px;
+		}
+		li button{
+			font-size: 10px;
+			margin-left: 20px;
+			color: #666;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="navig">
+	 <a href="LAB 9 Task 1.html" >TASK 1</a>
+    <a href="Lab9 Task2.html" >TASK 2</a>
+    </div>
+    <div style="margin-bottom: 80px;"></div>
+<div id="boxx">
+	<center><img src="../img/photoshopicon.png"></center>
+	<pre>My Wish-list</pre>
+<label style="margin-right: 224px;">Enter a new wish:</label>
+<label id="time"></label>
+<div>
+	<div id="boxx2">
+	<input type="text" name="item" id="item">
+	<button style="margin-right: -20px;">Add wish</button>
+	</div>
+</div>
+
+<ul>
+</ul>
+
+<script>
+	const list = document.querySelector('ul');
+	const input = document.querySelector('input');
+	const button = document.querySelector('button');
+
+	button.onclick = function(){
+		let myItem = input.value;
+		input.value = '';
+
+		const listItem = document.createElement('li');
+		const listText = document.createElement('span');
+		const listBtn = document.createElement('button');
+		const listBtn1 = document.createElement('button');
+
+       
+
+        if (myItem!="") {
+		listItem.appendChild(listBtn);
+		listBtn.textContent = 'Delete';
+		list.appendChild(listItem);
+
+		listItem.appendChild(listBtn1);
+		listBtn1.textContent = 'Edit';
+		list.appendChild(listItem);
+
+		listItem.appendChild(listText);
+		listText.textContent = myItem;
+        }
+        else{
+        	return 0;
+        }
+
+		listBtn.onclick = function(e){
+			list.removeChild(listItem);
+		}
+
+		listBtn1.onclick = function(e){
+			listText.textContent=prompt("Edit this Wish-list", listText.textContent );
+		}
+
+		input.focuse();
+	}
+
+var d = new Date();
+document.getElementById("time").innerHTML = d.getDate() + "." + d.getMonth() + "." + d.getFullYear()+ " | " + d.getHours() + ":" + d.getMinutes();
+</script>
+</div>
+<div id="extradiv">
+	<p>University: IITU</p>
+	<p>Group: ITIS-1913</p>
+	<p>ID: 27418</p>
+	<p>&copy Zhanysbay Adilet</p>
+</div>
+</body>
+</html>

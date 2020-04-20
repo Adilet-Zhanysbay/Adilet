@@ -1,0 +1,139 @@
+body{
+	background-color: #3c958f; 
+}
+#boxx{
+	width: 500px;
+	border-radius: 7px;
+	background-color:  #ffffff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0,.5);
+	padding:10px;
+	margin-top: 20px;
+	margin-bottom:150px;
+}
+*
+{
+  margin: 0 auto 0 auto;
+}
+	
+
+}
+h1{
+	background-color:;
+	color: #2e2305;
+	text-align: center;
+	font-family: Arial;
+	text-shadow: 0 0 4px 0 rgba(0, 0, 0,.5);
+}
+img{
+	width: 140px;
+	margin-top: -80px;
+}
+
+input{
+	background-color: #3c958f;
+	border:0;
+	width: 422px;
+	height: 20px;
+	font-size: 15px;
+	color:white;
+}
+input:hover{
+	background-color: #317c77;
+}
+#boxx2:hover{
+	background-color:  #317c77;
+}
+#boxx2{
+	margin-top:20px;
+	margin-bottom:10px;
+	border-radius: 7px;
+	padding: 5px;
+	width: 490px;
+	background-color:  #3c958f;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0,.5);
+}
+pre{
+	margin-top: -20px;
+	font-size: 33px;
+	width: 190px;
+	text-align: center;
+	font-family: Arial;
+    color: #2b6e69;
+    margin-bottom: -29px;
+    border-radius: 7px;
+    border:2px solid #3c958f;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0,.5);
+}
+ul{
+	list-style-type: none;
+}
+li{
+	margin-left: -59px;
+}
+span,label{
+	border-radius: 7px;
+	padding: 5px;
+	color: white;
+	background-color:  #3c958f;
+	font-family: Arial;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0,.5);
+}
+span{
+	margin-left: 25px;
+}
+
+#navig {
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	z-index: 99;
+	background-color: white;
+	border-radius: 5px;
+	width: 130px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0,.5);
+}
+a:link , a:visited{
+	border-radius: 5px;
+	border:3px #759cd8;
+	background-color: #3c958f;
+	padding: 5px;
+	text-align:center;
+	text-decoration:none;
+	color: white;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0,.5);
+}
+a:hover, a:active {
+  background-color: #2d6f6a;
+}
+button{
+	color:black;
+	background-color: white;
+	border-radius: 5px;
+	height: 23px;
+	margin-right: -17px;
+}
+button:hover{
+	background-color: #2d6f6a;
+	color:white;
+	border-radius: 5px;
+	height: 23px;
+}
+p{
+	text-align:center;
+	font-family: arial;
+	color: #ced4da;
+	font-size: 15px;
+}
+#extradiv{
+	background-color:#66afaa;
+	padding-top: 20px;
+	position: fixed;
+	bottom: 0;
+	height: 110px;
+	width: 100%;
+	z-index: 99;	
+	text-align: center;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0,.5);
+}
